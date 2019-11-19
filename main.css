@@ -1,0 +1,46 @@
+body {
+    margin: 50px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.header {
+    text-align: center;
+}
+
+.box {
+    display: block;
+    margin: auto;
+    padding: 25px;
+    height: 300px;
+    width: 600px;
+    border: solid;
+    border-color: #ffffff;
+    border-style: dashed;
+}
+
+.box p {
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.art_three p {
+    text-align: center;
+}
+
+.end {
+    text-align: center;
+}
+
+.social_list {
+    text-align: center;
+}
+
+.social_list li {
+    display: inline;
+    list-style-type: none;
+}
+
+.social_list a {
+    padding-right: 30px;
+}
