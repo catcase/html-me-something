@@ -1,11 +1,17 @@
 body {
     margin: 50px;
     background-color: #000000;
-    color: #ffffff;
+}
+
+p {
+    color: rgb(255, 255, 126);
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header {
     text-align: center;
+    color: #ffffff;
 }
 
 .box {
@@ -19,16 +25,11 @@ body {
     border-style: dashed;
 }
 
-.box p {
-    font-size: 14px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 .art_three p {
     text-align: center;
 }
 
-.end {
+#end {
     text-align: center;
 }
 
@@ -43,4 +44,8 @@ body {
 
 .social_list a {
     padding-right: 30px;
+}
+
+.social_list a:hover {
+    color: #ffffff;
 }
